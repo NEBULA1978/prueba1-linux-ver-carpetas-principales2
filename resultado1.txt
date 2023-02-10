@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Mostrar las carpetas del sistema y de home
+echo "Carpetas del sistema:"
+ls /
+echo "Carpetas de home:"
+ls ~
+
+# Preguntar en qué carpeta quiere entrar
+echo "En qué carpeta desea entrar?"
+read carpeta

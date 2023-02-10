@@ -1,0 +1,14 @@
+Puedes añadir una validación para verificar si la ruta de la carpeta es válida antes de acceder a ella. Aquí hay un ejemplo de código que incluye la validación:
+
+#!/bin/bash
+
+Mostrar las carpetas del sistema y de home
+echo "Carpetas del sistema:"
+ls /
+echo "Carpetas de home:"
+ls ~
+
+Preguntar en qué carpeta quiere entrar
+#!/bin/bash
+
+# Mostrar las carpetas del sistema y de home
